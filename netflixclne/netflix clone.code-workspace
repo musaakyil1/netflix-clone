@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../netflix clone"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.port": 5501,
+		"liveServer.settings.multiRootWorkspaceName": "netflix"
+	}
+}

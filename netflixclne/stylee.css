@@ -1,0 +1,338 @@
+@media (max-width: 1030px) {
+    
+    .menu-list {
+        column-gap: 10px;
+    }
+
+    .menu-list-item {
+        font-size: 10px; 
+    }
+}
+@media (max-width:870px){
+    .menu-container{
+        display: none;
+    }
+}
+*{
+    
+    margin: 0;
+    
+    
+}
+
+.netflix{
+    width: 140px;
+    cursor: pointer;
+    
+}
+.net-net{
+    width: 40px;
+}
+.navbar{
+    background-color: rgb(20, 20, 20,0.1200);
+    height: 60px;
+  color: white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+    
+}
+
+body{
+    background-color: rgb(20, 20, 20);
+    color: whitesmoke;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.navbar-wrapper{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 50px;
+    opacity: 1;
+    
+}
+
+.menu-list-item{
+    cursor: pointer;
+    
+    
+}
+
+
+.menu-list-item:hover{
+    font-weight: 900;
+}
+.menu-list-item.active{
+    font-weight: 900;
+}
+.menu-list{
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+}
+.profile-container{
+    order: 3; 
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    cursor: pointer;
+
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 105vh; 
+    overflow: hidden;
+    background-color: rgb(20, 20, 20);
+}
+.content-video-bar {
+    position: absolute;
+    bottom: 50px; 
+    left: 20px; 
+    color: white;
+    z-index: 1; 
+    text-align: left; 
+    
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    background-color: rgb(20, 20, 20);
+   
+}
+.navbar.scrolled {
+    background-color: rgb(20, 20, 20);
+    background-color: rgb(20, 20, 20);
+}
+
+.video-text{
+   width: 30%;
+   height: 150px;
+   margin-left: 50px;
+
+}
+.content-video-bar h3{
+    margin-left: 50px;
+    width: 50%;
+
+
+}
+.br-img img{
+    width: 20%;
+    
+}
+.video-buttons{
+    display: flex;
+    column-gap: 20px;
+padding: 50px;
+
+}
+.video-buttons button{
+    padding: 10px 25px;
+    cursor: pointer;
+    outline: none;
+    border-radius: 4px;
+    display: flex;
+    column-gap: 10px;
+    font-size: 16px;
+    border: none;
+    
+}
+.video-buttons .info{
+    font-weight: bold;
+    background-color: #92909064;
+}
+.volum-btn{
+    
+    position: absolute;
+    right: 100px;
+    font-size: 30px;
+    border: 1px solid;
+    border-radius: 50%;
+    padding: 15px;
+    bottom: 100px;
+  
+  
+ 
+}
+.bar-18{
+    background-color: #3f3e3ea8;
+    position: absolute;
+    right: 0;
+    padding: 15px 0;
+    bottom: 105px;
+    border-left: 2px solid;
+    font-size: 20px;
+    
+    
+    
+    
+}
+
+.video-menu-btn{
+    width: 250px;
+    height: 150px;
+    border-radius: 2px;
+   
+    
+
+}
+.video-list-container {
+    position: absolute; 
+    top: 790px; 
+    left: 20px; 
+    z-index: 100; 
+    display: flex;
+    gap: 2px;
+    
+ 
+    
+  }
+  .video-menu-list{
+    position: relative;
+    background-color: rgb(20, 20, 20);
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-left: 5px;
+    
+  }
+  .text-overlay{
+    position: absolute;
+    top: 130px; 
+    right: 85px; 
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 3px 10px;
+    background-color: rgb(211, 51, 51);
+    border-radius: 3px;
+  
+  }
+  .info:hover{
+    background-color: white;
+  }
+  .video-info-button i {
+    border: 1px solid;
+    border-radius: 60%;
+    padding: 10px;
+    
+  }
+
+
+  .video-info-button {
+    display: flex; 
+    align-items: center; 
+    justify-content: flex-start; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    gap: 10px;
+    font-size: 12px;
+    padding-top: 10px;
+    
+  }
+  
+  .uppers {
+    margin-left: auto; 
+    margin-right: 5px; 
+  }
+  .video-info-text{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 5px;
+    padding-left: 10px;
+    color: #9a9a9a;
+
+  }
+  .video-info-text h3{
+    border: 1px solid;
+    font-size: 10px;
+    padding: 0 6px;
+    border-radius: 3px;
+  }
+  .video-info-text p{
+    font-size: 12px;
+  }
+  .video-info-text h4{
+    border: 1px solid;
+    font-size: 10px;
+    padding: 0 4px;
+    border-radius: 3px;
+  }
+  .video-text-info{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    gap: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+margin-right: 10px;
+
+  }
+  .video-text-info :nth-child(1){
+    text-decoration: none;
+    list-style-type: none;
+
+  }
+  .video-info-button :nth-child(1){
+    background-color: white;
+    color: rgb(20, 20, 20);
+  }
+ .uppers :nth-child(1){
+    background-color: rgb(20, 20, 20);
+    color: white;
+ }
+ .video-bar-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .video-info-container{
+    display: none;
+ }
+ .video-menu-list:hover .video-info-container{
+    display: block;
+ }
+ .video-menu-list {
+    position: relative;
+    transition: transform 1s ease-in 1s; /* Geçiş efekti ekle */
+    
+  }
+  
+  .video-menu-list:hover {
+    transform: scale(); /* Fareyle üzerine gelindiğinde 1.1 kat büyüt */
+    z-index: 1000;
+    
+    
+   
+
+  }
+  .video-menu-list::after {
+    position: absolute;
+    border: 1px solid rgba(43, 37, 37, 0.779);/* Kırmızı kenarlık ekle */
+    opacity: 0; /* Başlangıçta kenarlık gizli */
+    transition: opacity 0.3s ease; /* Geçiş efekti ekle */
+   
+  }
+  
+ .next-page{
+    margin-left: 70px;
+ }
+
+ .next-page-list{
+    display: flex;
+    margin-left: 40px;
+ }
+ 
